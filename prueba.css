@@ -1,0 +1,39 @@
+p {
+  color: red;
+  font-size: large;
+}
+
+body {
+  background-color: blue;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media all and (min-width: 75rem) {
+  .container {
+    background-color: red;
+  }
+}
+
+li::nth-child(1) {
+  font-size: 8px;
+  background-color: #cc0000;
+}
+
+li::nth-child(2) {
+  font-size: 16px;
+  background-color: #990000;
+}
+
+li::nth-child(3) {
+  font-size: 24px;
+  background-color: #660000;
+}
+
+li::nth-child(4) {
+  font-size: 32px;
+  background-color: #330000;
+}/*# sourceMappingURL=prueba.css.map */

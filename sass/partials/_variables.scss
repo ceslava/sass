@@ -1,0 +1,11 @@
+body{
+	background-color: blue;
+
+}
+
+@mixin grid($columnas) {
+	display: grid;
+	place-items: center;
+	grid-template-columns: repeat(#{$columnas}, 1fr);
+}
+

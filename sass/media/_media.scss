@@ -1,0 +1,17 @@
+$bk-movil: 45rem;
+$bk-tablet: 75rem;
+
+@mixin mq($breakpoint) {
+	@if ($breakpoint == movil) {
+	@media all and (min-width: $bk-movil) {
+		@content;
+	}}
+	@else if ($breakpoint == tablet) {
+	@media all and (min-width: $bk-tablet) {
+		@content;
+	}}
+
+	@else {
+			@error "UNKNOWN MEDIA BREAKPOINT #{$breakpoint}";
+		}
+}

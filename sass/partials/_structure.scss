@@ -1,0 +1,17 @@
+@use "variables" as *;
+@use "../media/media" as *;
+.container {
+	@include grid(3);
+	@include mq(tablet) {
+		
+			background-color: red;
+		
+	}
+}
+
+@for $i from 1 to 5 {
+	li::nth-child(#{$i}) {
+		font-size: $i * 8px;
+		background-color: darken(red, $i * 10); 
+	} 
+}
