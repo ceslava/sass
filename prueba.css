@@ -36,4 +36,52 @@ li::nth-child(3) {
 li::nth-child(4) {
   font-size: 32px;
   background-color: #330000;
+}
+
+:root {
+  --clr-0: red;
+  --clr-complementary-0: aqua;
+  --clr-1: #e60000;
+  --clr-complementary-1: #00e6e6;
+  --clr-2: #cc0000;
+  --clr-complementary-2: #00cccc;
+  --clr-3: #b30000;
+  --clr-complementary-3: #00b3b3;
+  --clr-4: #990000;
+  --clr-complementary-4: #009999;
+  --clr-5: maroon;
+  --clr-complementary-5: teal;
+  --clr-6: #660000;
+  --clr-complementary-6: #006666;
+  --clr-7: #4d0000;
+  --clr-complementary-7: #004d4d;
+  --clr-8: #330000;
+  --clr-complementary-8: #003333;
+  --clr-9: #1a0000;
+  --clr-complementary-9: #001a1a;
+}
+
+/* map */
+.icon-eye:before {
+  content: "\f112";
+}
+
+.icon-start:before {
+  content: "\f12e";
+}
+
+.icon-stop:before {
+  content: "\f12f";
+}
+
+.icon:before {
+  width: 24px;
+}
+
+.icon:before {
+  width: 32px;
+}
+
+.icon:before {
+  width: 64px;
 }/*# sourceMappingURL=prueba.css.map */
