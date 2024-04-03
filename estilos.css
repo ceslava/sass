@@ -1,0 +1,105 @@
+p {
+  color: red;
+  font-size: large;
+}
+
+body {
+  background-color: blue;
+}
+
+::-moz-placeholder {
+  color: gray;
+}
+
+::placeholder {
+  color: gray;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media all and (min-width: 75rem) {
+  .container {
+    background-color: red;
+  }
+}
+
+li:nth-child(1) {
+  font-size: 16px;
+  background-color: #0047b3;
+  color: #0066ff;
+}
+
+li:nth-child(2) {
+  font-size: 32px;
+  background-color: #002966;
+  color: #0066ff;
+}
+
+li:nth-child(3) {
+  font-size: 48px;
+  background-color: #000a1a;
+  color: #0066ff;
+}
+
+li:nth-child(4) {
+  font-size: 64px;
+  background-color: black;
+  color: #3385ff;
+}
+
+li:nth-child(5) {
+  font-size: 80px;
+  background-color: black;
+  color: #80b3ff;
+}
+
+:root {
+  --clr-0: #0066ff;
+  --clr-complementary-0: #ff9900;
+  --clr-1: #005ce6;
+  --clr-complementary-1: #e68a00;
+  --clr-2: #0052cc;
+  --clr-complementary-2: #cc7a00;
+  --clr-3: #0047b3;
+  --clr-complementary-3: #b36b00;
+  --clr-4: #003d99;
+  --clr-complementary-4: #995c00;
+  --clr-5: #003380;
+  --clr-complementary-5: #804d00;
+  --clr-6: #002966;
+  --clr-complementary-6: #663d00;
+  --clr-7: #001f4d;
+  --clr-complementary-7: #4d2e00;
+  --clr-8: #001433;
+  --clr-complementary-8: #331f00;
+  --clr-9: #000a1a;
+  --clr-complementary-9: #1a0f00;
+}
+
+/* map */
+.icon-eye::before {
+  content: "\f112";
+}
+
+.icon-start::before {
+  content: "\f12e";
+}
+
+.icon-stop::before {
+  content: "\f12f";
+}
+
+.icon::before {
+  width: 24px;
+}
+
+.icon::before {
+  width: 32px;
+}
+
+.icon::before {
+  width: 64px;
+}/*# sourceMappingURL=estilos.css.map */

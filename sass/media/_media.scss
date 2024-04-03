@@ -15,3 +15,7 @@ $bk-tablet: 75rem;
 			@error "UNKNOWN MEDIA BREAKPOINT #{$breakpoint}";
 		}
 }
+
+::placeholder {
+	color: gray;
+}
